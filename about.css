@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -41,6 +41,11 @@
     background: linear-gradient(45deg, black, white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+#Wel {
+    margin-top: 10%;
+}
+
 
 .logo {
     height: 90px;
@@ -117,110 +122,40 @@
     background-color: yellow;
 }
 
-
-.mainContainer{
-    height: 100%;
-    background: linear-gradient(45deg, pink, lightblue);
-    padding-top: 90px;
+.Container-1{
+    /* border: 2px solid red; */
+    margin-top: 94px;
+    height: 500px;
+    background: linear-gradient(45deg, grey, white);
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    
-}
-.smallContainer{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.card{
-    background: linear-gradient(45deg, pink, lightblue);
-    width: 250px;
-    height: 290px;
-    margin: 10px;
-    border-radius: 15px;
-    transition: width 0.3s ease, height 0.3s ease ;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.5);
+    justify-content: space-between;
+    align-items: center;
 }
 
-.card:hover{
-    width: 290px;
-    height: 320px;
+.textSection{
+    height: 400px;
+    width: 700px;
+    margin: 50px;
+    text-align: center;
+    font-size: 1.1rem;
 }
-
-
-.card:hover .cardImg{
-    height:40%;
-}
-
-.card-1{
-    width: 300px;
-    transition: width 0.3s ease, height 0.3s ease;
-    display: block;
-
-}
-
-.card-1:hover{
+.ImgSection{
     width: 400px;
     height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    margin: 50px;
 }
 
-.cardImg{
-    background-color: #fff;
-    height: 80%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-size:cover;
-    transition:height 0.3s ease;
-}
 
-/* .Img-a{
-    background-image: url(a.jpg);
-}
-
-.Img-b{
-    background-image: url(b.jpg);
-}
-
-.Img-c{
-    background-image: url(c.jpg);
-}
-
-.Img-d{
-    background-image: url(d.jpg);
-}
-
-.Img-e{
-    background-image: url(e.jpg);
-} */
-
-.title{
-    text-align: center;
-}
-
-.text{
-    text-align: center;
-    font-weight: bold;
-}
-
-.textC{
-    display: none;
-    transition: display 0.2s ease;
-}
-
-.card:hover .textC{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-}
 
 .container-4 {
-    border-top: 4px solid pink;
+    border-top: 4px solid rgb(60, 99, 3);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    color: black;
-    background-color: pink;
+    background-color: black;
 }
