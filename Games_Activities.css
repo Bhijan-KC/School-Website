@@ -123,10 +123,8 @@
 }
 
 .Container-1{
-    /* border: 2px solid red; */
-    padding-top: 94px;
-    height: 594px;
-    background: linear-gradient(45deg, grey, white);
+    height: 700px;
+    background: linear-gradient(45deg, #009688, white);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -151,11 +149,11 @@
 
 
 .container-4 {
-    border-top: 4px solid rgb(60, 99, 3);
+    border-top: 4px solid rgba(2, 4, 143, 0.5);
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: rgba(1, 140, 145, 0.534);
 }
