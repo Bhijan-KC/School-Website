@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.logo{
+    width:70px;
+}
+.header{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url("schoool.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6% ;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style:none;
+    display: inline-block;
+    padding:8px 12px;
+    position:relative;
+}
+.nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 21px;
+}
+.nav-links ul li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width:90%;
+    color:white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 35px ;
+    margin-top: 65px;
+}
+.text-box p{
+    margin:10px 0 40px ;
+    font-size: 20px;
+    color:#fff;
+}
+.central-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    background: transparent;
+    position:relative;
+    cursor: pointer;
+}
+.central-btn:hover{
+    border :1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.svg{
+    display: none;
+}
+@media (max-width:700px) {
+    .text-box h1{
+        font-size: 24px ;
+    }
+    .nav-links ul li{
+        display: block;
+    }
+    .nav-links{
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top:-110vh;
+        right:0px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s;
+    }
+    .svg{
+        display: block;
+        color:white;
+        margin: 10px;
+        font-size:22px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+    }
+}
+/*Contact*/
+.mainContainer{
+    height: 100%;
+    background: linear-gradient(45deg, pink, lightblue);
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.smallContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: linear-gradient(45deg, pink, lightblue);
+    width: 250px;
+    height: 290px;
+    margin: 10px;
+    border-radius: 15px;
+    transition: width 0.3s ease, height 0.3s ease ;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+    width: 290px;
+    height: 320px;
+}
+
+
+.card:hover .cardImg{
+    height:40%;
+}
+
+.card-1{
+    width: 300px;
+    transition: width 0.3s ease, height 0.3s ease;
+    display: block;
+
+}
+
+.card-1:hover{
+    width: 400px;
+    height: 400px;
+}
+
+.cardImg{
+    background-color: #fff;
+    height: 80%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-size:cover;
+    transition:height 0.3s ease;
+}
+
+/* .Img-a{
+    background-image: url(a.jpg);
+}
+
+.Img-b{
+    background-image: url(b.jpg);
+}
+
+.Img-c{
+    background-image: url(c.jpg);
+}
+
+.Img-d{
+    background-image: url(d.jpg);
+}
+
+.Img-e{
+    background-image: url(e.jpg);
+} */
+
+.title{
+    text-align: center;
+}
+
+.text{
+    text-align: center;
+    font-weight: bold;
+}
+
+.textC{
+    display: none;
+    transition: display 0.2s ease;
+}
+
+.card:hover .textC{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+/*Footer*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding:30px 0;
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
