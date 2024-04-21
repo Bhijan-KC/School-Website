@@ -28,6 +28,26 @@ app.get("/service", (req, res)=>{
     res.render("service")
 })
 
+app.get("/contact", (req, res)=>{
+    res.render("contact")
+})
+
+app.get("/about", (req, res)=>{
+    res.render("about")
+})
+
+app.get("/teaching", (req, res)=>{
+    res.render("teching")
+})
+
+app.get("/games", (req, res)=>{
+    res.render("games")
+})
+
+app.get("/gallery", (req, res)=>{
+    res.render("gallery")
+})
+
 //Server Listen
 
 app.listen(8000, ()=>{
