@@ -183,6 +183,10 @@ nav{
     flex-basis:48%;
     padding: 30px 2px;
 }
+.feature-col:hover{
+    scale:1.07;
+    transition: 1s;
+}
 .feature-col img{
     width: 100%;
     border-radius:10px;

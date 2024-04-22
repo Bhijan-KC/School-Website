@@ -40,7 +40,7 @@ nav{
     content: "";
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: rgba(0, 0, 0, 0.88);
     display: block;
     margin:auto;
     transition: 0.5s;
@@ -51,6 +51,7 @@ nav{
 .text-box{
     width:90%;
     color:white;
+    fill:#fff;
     position: absolute;
     top:50%;
     left: 50%;
