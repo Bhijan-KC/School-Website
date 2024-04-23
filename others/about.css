@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.goToTop {
+    position: fixed;
+    display: none;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 6969;
+    border: 2px solid black;
+}
+
+.goToTop img {
+    height: 50px;
+    width: 50px;
+    z-index: 100000;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+
+}
+
+#navbar:hover {
+    background: linear-gradient(45deg, black, white);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#Wel {
+    margin-top: 10%;
+}
+
+
+.logo {
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+}
+
+.linkfrelement {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+    font-size: 1.4rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+}
+
+.elements {
+    list-style-type: none;
+    margin-top: 8px;
+    padding: 30px;
+
+}
+
+#ulFrnav {
+    display: flex;
+}
+
+.linkfrelement:hover {
+    background-color: white;
+    color: black;
+}
+
+.socialmedia {
+    display: flex;
+    margin-left: auto;
+}
+
+.Sm {
+    height: 40px;
+    width: 40px;
+    margin: auto 14px;
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 4px white);
+}
+
+#yt {
+    height: 40px;
+    width: 40px;
+    margin: auto 14px;
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 4px white);
+}
+
+#yt {
+    margin-right: 50px;
+}
+
+#yt:hover {
+    filter: drop-shadow(0px 0px 4px black) invert(1);
+    background-color: Cyan;
+
+}
+
+.Sm:hover {
+    filter: drop-shadow(0px 0px 4px black) invert(1);
+    background-color: yellow;
+}
+
+.Container-1{
+    /* border: 2px solid red; */
+    padding-top: 94px;
+    height: 594px;
+    background: linear-gradient(45deg, grey, white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textSection{
+    height: 400px;
+    width: 700px;
+    margin: 50px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.ImgSection{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    float: right;
+    margin: 50px;
+}
+
+
+
+.container-4 {
+    border-top: 4px solid rgb(60, 99, 3);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
