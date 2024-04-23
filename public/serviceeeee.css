@@ -236,3 +236,25 @@ nav{
         justify-content: center;
     }
 }
+
+.goToTop {
+    position: fixed;
+    display: none;
+    bottom: 35px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    z-index: 6969;
+    border: 2px solid black;
+}
+
+.goToTop img {
+    height: 50px;
+    width: 50px;
+    z-index: 100000;
+}

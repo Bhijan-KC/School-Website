@@ -48,6 +48,10 @@ app.get("/gallery", (req, res)=>{
     res.render("gallery")
 })
 
+app.get("/activities", (req, res)=>{
+    res.render("activities")
+})
+
 //Server Listen
 
 app.listen(8000, ()=>{
