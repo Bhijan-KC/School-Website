@@ -132,7 +132,7 @@ nav{
 }
 .gallery img:hover{
     transform: scale(1.1);
-    transition: 1s;
+    transition: 0.5s;
     border-radius: 10px;
     cursor: pointer;
     box-shadow: 0 32px 75px rgba(68,77,136,0.2);
