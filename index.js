@@ -52,6 +52,18 @@ app.get("/activities", (req, res)=>{
     res.render("activities")
 })
 
+app.get("/introduction", (req,res)=>{
+    res.render('introduction')
+})
+
+app.get("/mission", (req,res)=>{
+    res.render('mission')
+})
+
+app.get("/vision", (req,res)=>{  
+    res.render('Vision')
+})
+
 //Server Listen
 
 app.listen(8000, ()=>{

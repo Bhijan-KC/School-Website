@@ -60,6 +60,7 @@ nav{
 .text-box h1{
     font-size: 35px ;
     margin-top: 65px;
+    font-weight: bold;
 }
 .text-box p{
     margin:10px 0 40px ;
@@ -118,13 +119,14 @@ nav{
 .option h1{
     font-size:36px;
     font-weight: 600;
+    margin: 6px;
 }
 .option p{
     font-weight: 300;
     font-size:14px;
     line-height:22px;
     color: #777;
-    padding: 10px;
+    /* padding: 10px; */
     
 }
 .option{
@@ -140,7 +142,7 @@ nav{
     text-align: left;
 }
 .card:hover{
-    scale:1.1;
+    /* scale:1.1; */
     transition: 1s;
 }
 .option .row{
@@ -154,6 +156,10 @@ nav{
         flex-direction: column;
         justify-content: center;
     }
+}
+
+.card-title{
+    font-weight: bold;
 }
 /*Footer*/
 .footer{
