@@ -150,7 +150,7 @@ nav{
     text-align: left;
 }
 .facilities-col:hover{
-    scale:1.07;
+    /* scale:1.07; */
     transition: 1s;
 }
 .facilities-col img{
